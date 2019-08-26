@@ -175,7 +175,7 @@ func main() {
 		entityName = os.Args[1]
 		inputFileName = os.Args[2]
 	} else {
-		_, _ = fmt.Fprint(os.Stderr, "Usage: sql2entity [entity name] <file>")
+		_, _ = fmt.Fprint(os.Stderr, "Usage: sql2entity [entity name] <file>\n")
 		return
 	}
 
